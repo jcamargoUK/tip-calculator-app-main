@@ -14,6 +14,21 @@
   font-family: 'Space Mono', monospace;
 }
 
+.container1 {
+  border: 1px solid;
+  position: absolute;
+  width: 49%;
+  height: 100%;
+}
+
+.container2 {
+  border: 1px solid;
+  position: absolute;
+  width: 49%;
+  height: 100%;
+  right: 0;
+}
+
 body {
   background-color: #c5e4e7;
 }
