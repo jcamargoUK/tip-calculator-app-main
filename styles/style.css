@@ -29,6 +29,13 @@
   right: 0;
 }
 
+.green {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background-color: #00494d;
+}
+
 body {
   background-color: #c5e4e7;
 }
