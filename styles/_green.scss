@@ -1,6 +1,27 @@
 .green{
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   background-color: $-Very-dark-cyan;
+  border-radius: 10px;
+
+  // ////////NEED TO ADD A MIXIN AND RE-USE THIS PART///////////
+  // ///////////////////////////////////////////////////////////
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  .toplable{
+    color: $-White;
+    font-size: 13px;
+  }
+  .bottonlable{
+    color: $-Dark-grayish-cyan2;
+    font-size: 10px;
+  }
+  #reset{
+    width: 80%;
+  }
 }
