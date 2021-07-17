@@ -6,40 +6,45 @@
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="logic.js">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Tip calculator app</title>
-  
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
- <h1>Bill</h1> 
-
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
-
-  Number of People
-
-  Tip Amount
-  / person
-
-  Total
-  / person
-
-  Reset
-  
+  <div class="main">
+<div class="container1">
+  <div class="white">
+  <!-- <form action="./logic.js"> -->
+ <lable id=bill><p>Bill</p></lable>
+ <input type="text">
+ <div class="flex">
+  <label><p>Select tip %</p></label>
+  <button>5%</button> 
+  <button>10%</button>
+  <button>15%</button> 
+  <button>25%</button> 
+  <button>50%</button> 
+  <button>Custom</button> 
+</div>
+  <lable><p>Number of People</p></lable>
+  </div>
+</div>
+  <div class="container2">  
+    <div class="green">
+      <label class="toplable">Tip Amount</label>
+      <label class="bottonlable">/ person</label> 
+      <p class="returnResult returnTip">$0.00</p>         
+      <label class="toplable">Total</label>
+      <label class="bottonlable">/ person</label>
+      <p class="returnResult returnTotal">$0.00</p>
+      <button id="reset">Reset</button> 
+      </div>
+</div>
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+</div>
 </body>
 </html>

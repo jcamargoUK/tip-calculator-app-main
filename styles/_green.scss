@@ -1,0 +1,44 @@
+.green{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  background-color: $-Very-dark-cyan;
+  border-radius: 10px;
+
+  // ////////NEED TO ADD A MIXIN AND RE-USE THIS PART///////////
+  // ///////////////////////////////////////////////////////////
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  .toplable{
+    color: $-White;
+    font-size: 13px;
+    margin-left: $-green-margin-left;
+    margin-top: 45px;
+  }
+  .bottonlable{
+    color: $-Dark-grayish-cyan2;
+    font-size: 10px;
+    margin-left: $-green-margin-left;
+  }
+  #reset{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .returnResult{
+    margin: 0;
+    padding: 0;
+    width: min-content;
+    margin-left: 220px;
+    font-size: 50px;
+    margin-top: -55px;
+    color: $-Ligh-grayish-cyan1;
+  }
+  
+}

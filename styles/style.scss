@@ -1,1 +1,9 @@
 @import "./variables";
+@import "./main";
+@import "./container1";
+@import "./container2";
+@import "./green";
+body{
+  background-color: $-Ligh-grayish-cyan1;
+  font-family: 'Space Mono', monospace;
+}

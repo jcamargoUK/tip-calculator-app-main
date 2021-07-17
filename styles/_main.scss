@@ -1,0 +1,12 @@
+.main{
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 400px;
+  border: 1px solid;
+  background-color: $-White;
+  font-family: 'Space Mono', monospace;
+}
