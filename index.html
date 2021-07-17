@@ -14,11 +14,12 @@
 <body>
   <div class="main">
 <div class="container1">
+  <div class="white">
   <!-- <form action="./logic.js"> -->
- <lable id=bill><h1>Bill</h1></lable>
+ <lable id=bill><p>Bill</p></lable>
  <input type="text">
- <div class="grid">
-  <label><h1>Select tip %</h1></label>
+ <div class="flex">
+  <label><p>Select tip %</p></label>
   <button>5%</button> 
   <button>10%</button>
   <button>15%</button> 
@@ -26,17 +27,17 @@
   <button>50%</button> 
   <button>Custom</button> 
 </div>
-
-  <lable>Number of People</lable>
+  <lable><p>Number of People</p></lable>
   </div>
+</div>
   <div class="container2">  
     <div class="green">
       <label class="toplable">Tip Amount</label>
-      <label class="bottonlable">/ person</label>
-
+      <label class="bottonlable">/ person</label> 
+      <p class="returnResult returnTip">$0.00</p>         
       <label class="toplable">Total</label>
       <label class="bottonlable">/ person</label>
-
+      <p class="returnResult returnTotal">$0.00</p>
       <button id="reset">Reset</button> 
       </div>
 </div>

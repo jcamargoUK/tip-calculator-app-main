@@ -1,5 +1,28 @@
 .container1{
   @include containerPosition();
+
+  .white{
+    position: absolute;
+    width: 90%;
+    border: 1px solid;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    p{
+      font-size: 12px;   
+    }
+    .flex{
+      margin-left: 20px;
+    }
+    button{
+      padding: 8px 20px;
+      font-size: 15px;
+      width: 97px;
+      margin-bottom: 10px;
+     
+    }
+  }
 }
 
   

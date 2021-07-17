@@ -20,6 +20,31 @@
   height: 100%;
 }
 
+.container1 .white {
+  position: absolute;
+  width: 90%;
+  border: 1px solid;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container1 .white p {
+  font-size: 12px;
+}
+
+.container1 .white .flex {
+  margin-left: 20px;
+}
+
+.container1 .white button {
+  padding: 8px 20px;
+  font-size: 15px;
+  width: 97px;
+  margin-bottom: 10px;
+}
+
 .container2 {
   position: absolute;
   width: 49%;
@@ -49,18 +74,38 @@
 .green .toplable {
   color: white;
   font-size: 13px;
+  margin-left: 26px;
+  margin-top: 45px;
 }
 
 .green .bottonlable {
   color: #7f9c9f;
   font-size: 10px;
+  margin-left: 26px;
 }
 
 .green #reset {
   width: 80%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.green .returnResult {
+  margin: 0;
+  padding: 0;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin-left: 220px;
+  font-size: 50px;
+  margin-top: -55px;
+  color: #c5e4e7;
 }
 
 body {
   background-color: #c5e4e7;
+  font-family: 'Space Mono', monospace;
 }
 /*# sourceMappingURL=style.css.map */
