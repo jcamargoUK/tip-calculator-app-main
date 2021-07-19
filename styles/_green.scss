@@ -25,19 +25,19 @@
     font-size: 10px;
     margin-left: $-green-margin-left;
   }
-  #reset{
+  button{
     width: 75%;
     margin: auto;
     margin-top: 90px;
-    padding: 14px;
+    padding: 10px;
     border-radius: 5px;
-    font-size: 22px;
+    font-size: 16px;
     background-color: $-Dark-grayish-cyan1;
     color: $-Very-dark-cyan;
     border: none;
     text-transform: uppercase;
-    font-size: 14px;
     font-weight: 700;
+    cursor: pointer;
   }
   .returnResult{
     margin: 0;
