@@ -13,6 +13,7 @@ $-Ligh-grayish-cyan1: hsl(185, 41%, 84%);
 $-Ligh-grayish-cyan2: hsl(189, 41%, 97%);
 $-White: hsl(0, 0%, 100%);
 $-green-margin-left: 26px;
+$-margin-left: 40px;
 
 
 // //////////////Mixin/////////////////
@@ -20,6 +21,6 @@ $-green-margin-left: 26px;
 @mixin containerPosition {
   // border: 1px solid;
   position: absolute;
-  width: 49%;
+  width: 48%;
   height: 100%;
 }

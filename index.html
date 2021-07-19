@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="./styles/style.css">
-  <link rel="stylesheet" href="logic.js">
+  <script type="text/javascript" src="js/logic.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -17,10 +17,12 @@
 <body>
   <div class="main">
 <div class="container1">
-  <div class="white">
+  <form>
+  <!-- <div class="white"> -->
   <!-- <form action="./logic.js"> -->
+<div class="billAndnop">
  <lable id=bill><p>Bill</p></lable>
- <input type="text">
+ <input type="text" id="dollar" placeholder="0"></div>
  <div class="flex">
   <label><p>Select tip %</p></label>
   <button>5%</button> 
@@ -30,8 +32,11 @@
   <button>50%</button> 
   <button>Custom</button> 
 </div>
-  <lable><p>Number of People</p></lable>
-  </div>
+<div class="billAndnop">
+  <lable id="number"><p>Number of People</p></lable>
+  <input type="text" id="people" placeholder="0"></div>
+  <!-- </div> -->
+</form>
 </div>
   <div class="container2">  
     <div class="green">
@@ -41,8 +46,8 @@
       <label class="toplable">Total</label>
       <label class="bottonlable">/ person</label>
       <p class="returnResult returnTotal">$0.00</p>
-      <button id="reset">Reset</button> 
-      </div>
+      <button>Reset</button> 
+    </div>
 </div>
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
